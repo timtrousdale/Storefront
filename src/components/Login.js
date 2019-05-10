@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { changeUsername, changePassword, logIN } from "../actions/loginActions";
+import { Link } from 'react-router-dom'
 
 
 class Login extends Component {
@@ -17,13 +18,15 @@ class Login extends Component {
             username: this.props.login.username,
             password: this.props.login.password
         };
+        console.log(this.props.history);
 
-        this.props.logIN(post);
+        this.props.logIN(post, this.props.history);
 
 
     };
 
     render() {
+
         if ( this.props.isLoggedIn === false ) {
             return (
                 <div className={`login-container`}>
@@ -47,7 +50,13 @@ class Login extends Component {
                 </div>
             )
         } else {
-            return null
+            return (
+                <div>
+                    <h3 className={'center'}>
+                        You are already logged in. Why don't you <Link to="/products">browse our products?</Link> ...
+                    </h3>
+                </div>
+            )
         }
     }
 

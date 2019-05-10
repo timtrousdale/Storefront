@@ -1,6 +1,6 @@
 import { USERNAME, PASSWORD, LOGIN, START_LOADING, STOP_LOADING, LOGIN_ERROR } from './types'
 
-export const logIN = (post) => dispatch => {
+export const logIN = (post, redirect) => dispatch => {
 
     dispatch({ type: START_LOADING });
     setTimeout(function () {
@@ -16,6 +16,8 @@ export const logIN = (post) => dispatch => {
             dispatch({type: LOGIN_ERROR, error: true});
         }
 
+        redirect.push('/products');
+
         dispatch({ type: STOP_LOADING });
 
 
@@ -23,15 +25,14 @@ export const logIN = (post) => dispatch => {
 
 };
 
-export const changeUsername = (username) => dispatch => {
+export const changeUsername = username => dispatch => {
     dispatch({
         type: USERNAME,
         updatedUsername: username,
     })
 };
 
-// export const username = (username) => ();
-export const changePassword = (password) => ({
+export const changePassword = password => ({
     type: PASSWORD,
     updatedPassword: password
 });

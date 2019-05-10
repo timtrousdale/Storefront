@@ -1,32 +1,52 @@
 import React from 'react';
-import ProductsList from './ProductsList'
-import { Provider } from 'react-redux'
+import { connect, Provider } from 'react-redux'
 import store from '../store'
-import Login from './Login'
 import Loader from './Loader'
+import Router from './Router'
+import { Link } from 'react-router-dom'
 
-export default class Storefront extends React.Component {
+class Storefront extends React.Component {
 
     render() {
+        let links;
+        if ( this.props.isLoggedIn === true ) {
+            links = (
+                <div>
+                    <Link to="/products">Products</Link>
+                    <Link to="/cart">Cart</Link>
+                </div>
+
+
+            )
+        }
         return (
-            <Provider store={store}>
-                <Loader />
-                <div className="star-five"></div>
+            <div>
+                <Loader/>
                 <div className="App Container">
                     <header className="header">
                         <h1>
                             <span className={`overline`}>the</span> Store
                         </h1>
+                        {links}
                     </header>
-
-                    <Login/>
                     <hr/>
 
-                    <div className="content">
-                        <ProductsList/>
-                    </div>
+                    <Router/>
+
+
                 </div>
-            </Provider>
+            </div>
         )
     }
 }
+
+
+const mapStateToProps = (store) => {
+    return {
+        isLoggedIn: store.states.isLoggedIn
+    };
+};
+
+export default connect(mapStateToProps, {})(Storefront);
+
+

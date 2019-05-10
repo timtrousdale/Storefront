@@ -9,6 +9,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header {
   font-size: 2em;
   margin: 10px;
@@ -43,6 +48,11 @@ body {
 
 .products-header {
   text-align: center;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
 }
 
 .product-list {

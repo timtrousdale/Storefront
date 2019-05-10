@@ -1,4 +1,4 @@
-import { FETCH_PRODUCTS, FETCH_CATEGORIES } from './types'
+import { FETCH_PRODUCTS, FETCH_CATEGORIES, FILTER } from './types'
 
 export const fetchProducts = () => dispatch => {
     fetch('https://my-json-server.typicode.com/tdmichaelis/json-api/products')
@@ -21,6 +21,14 @@ export const fetchCategories = () => dispatch => {
             })
         })
 };
-export const test = () => (dispatch) => {
-    console.log('test')
+
+
+export const filter = filterName => dispatch => {
+    dispatch({
+        type: FILTER,
+        filterName: filterName,
+    })
+};
+export const test = filterName => dispatch => {
+
 };

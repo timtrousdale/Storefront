@@ -1,14 +1,20 @@
-import { FETCH_PRODUCTS, FETCH_CATEGORIES } from '../actions/types'
+import { FETCH_PRODUCTS, FETCH_CATEGORIES, FILTER } from '../actions/types'
 
 const initialState = {
     productsList: [],
     categories:[],
-    // isLoggedIn: false
+    filter: 'none'
 };
 
 export default function (state = initialState, action) {
 
     switch ( action.type ) {
+        case FILTER:
+            return {
+                ...state,
+                filter: action.filterName
+            };
+
         case FETCH_PRODUCTS:
             return {
                 ...state,
