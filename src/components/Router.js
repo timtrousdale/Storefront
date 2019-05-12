@@ -22,10 +22,10 @@ class Router extends Component {
         return (
             <Switch>
 
-                <Route path={"/login"} component={Login} history={this.props.history} exact />
-                <Route path={"/products"} component={ProductsList} history={this.props.history} exact />
-                <Route path={"/products/:id"} component={ProductDetails} history={this.props.history} exact />
-                <Route path={"/cart"} component={Cart} history={this.props.history} exact />
+                <Route path={"/Storefront/login"} component={Login} history={this.props.history} exact />
+                <Route path={"/Storefront/products"} component={ProductsList} history={this.props.history} exact />
+                <Route path={"/Storefront/products/:id"} component={ProductDetails} history={this.props.history} exact />
+                <Route path={"/Storefront/cart"} component={Cart} history={this.props.history} exact />
 
                 <Route  component={Error404}  />
 

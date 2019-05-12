@@ -12,12 +12,12 @@
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0"
   },
+  "homepage": "./",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "homepage": "https://timtrousdale.github.io/Storefront",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
