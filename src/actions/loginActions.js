@@ -11,12 +11,13 @@ export const logIN = (post, redirect) => dispatch => {
             dispatch({
                 type: LOGIN
             });
+            redirect.push('/products');
         } else {
             //TODO If password DIDN'T match hide overlay and display error
             dispatch({type: LOGIN_ERROR, error: true});
         }
 
-        redirect.push('/products');
+
 
         dispatch({ type: STOP_LOADING });
 

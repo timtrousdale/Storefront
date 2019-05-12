@@ -29,6 +29,3 @@ export const filter = filterName => dispatch => {
         filterName: filterName,
     })
 };
-export const test = filterName => dispatch => {
-
-};

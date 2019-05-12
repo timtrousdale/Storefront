@@ -3,7 +3,7 @@ import { LOGIN, LOGOUT, LOGIN_ERROR } from '../actions/types'
 const initialState = {
 
     //TODO Change this to false
-    isLoggedIn: false,
+    isLoggedIn: true,
     loggedInError: false
 };
 

@@ -3,7 +3,7 @@ import { FETCH_PRODUCTS, FETCH_CATEGORIES, FILTER } from '../actions/types'
 const initialState = {
     productsList: [],
     categories:[],
-    filter: 'none'
+    filter: ''
 };
 
 export default function (state = initialState, action) {

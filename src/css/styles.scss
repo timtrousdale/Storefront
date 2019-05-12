@@ -10,6 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 .center {
   margin-left: auto;
   margin-right: auto;
@@ -20,12 +21,36 @@ body {
   font-size: 2em;
   margin: 10px;
   text-align: center;
+  display: flex;
 
   h1 {
     margin: 5px;
+    flex: 1;
+  }
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: peru
+  }
+
+  .go-to-cart {
+    color: peru;
+    text-decoration: none;
+    margin-right: 10px;
   }
 
 }
+
+.categories {
+  display: flex;
+  align-items: center;
+}
+
+.category, .categories-remove {
+  margin: 5px;
+}
+
 
 
 .hide {
@@ -41,6 +66,10 @@ body {
   font-size: .6em;
 }
 
+.content {
+  position: relative;
+}
+
 .login-container, form {
   display: flex;
   flex-direction: column;
@@ -49,6 +78,17 @@ body {
 
   input, button {
     margin: 10px;
+  }
+}
+.float {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 1em;
+
+  .inside-fas {
+    padding-left: 5px;
   }
 }
 
@@ -68,19 +108,103 @@ body {
   justify-content: center;
 
   .product {
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
     border: solid peru 2px;
     border-radius: 20px;
-    width: 250px;
+    width: 175px;
     padding: 20px;
     margin: 10px;
+
+    .product-title {
+      text-align: center;
+    }
   }
 
   .list-image {
     height: 75px;
   }
+}
+
+.product-details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+  .product {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid peru 2px;
+    border-radius: 20px;
+    width: 40%;
+    padding: 20px;
+    margin: 10px;
+
+
+  }
+
+  .list-image {
+    height: 75px;
+  }
+
+  .payment {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
+    .price {
+      color: blue;
+      font-size: 1.5em;
+    }
+
+    .cart-button {
+      font-size: 2em;
+      cursor: pointer;
+      border: none;
+      color: blue;
+
+    }
+  }
+}
+
+.cart-header {
+  text-align: center;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+
+
+  .item-image {
+    height: 40px;
+  }
+
+  .qty-label {
+    padding-right: 5px;
+    font-size: .8rem;
+  }
+
+  input {
+    width: 25px;
+    text-align: end;
+  }
+  .red {
+    font-size: .8rem;
+    color: red;
+    cursor: pointer;
+  }
+
 }
 
 

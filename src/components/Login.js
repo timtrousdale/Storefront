@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { changeUsername, changePassword, logIN } from "../actions/loginActions";
 import { Link } from 'react-router-dom'
@@ -18,7 +17,6 @@ class Login extends Component {
             username: this.props.login.username,
             password: this.props.login.password
         };
-        console.log(this.props.history);
 
         this.props.logIN(post, this.props.history);
 

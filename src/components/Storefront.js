@@ -1,6 +1,5 @@
 import React from 'react';
-import { connect, Provider } from 'react-redux'
-import store from '../store'
+import { connect } from 'react-redux'
 import Loader from './Loader'
 import Router from './Router'
 import { Link } from 'react-router-dom'
@@ -11,12 +10,7 @@ class Storefront extends React.Component {
         let links;
         if ( this.props.isLoggedIn === true ) {
             links = (
-                <div>
-                    <Link to="/products">Products</Link>
-                    <Link to="/cart">Cart</Link>
-                </div>
-
-
+                <Link to="/cart"><i className="fas fa-shopping-cart go-to-cart"></i></Link>
             )
         }
         return (
@@ -28,6 +22,7 @@ class Storefront extends React.Component {
                             <span className={`overline`}>the</span> Store
                         </h1>
                         {links}
+
                     </header>
                     <hr/>
 
@@ -41,12 +36,12 @@ class Storefront extends React.Component {
 }
 
 
-const mapStateToProps = (store) => {
+const mapStoreToProps = (store) => {
     return {
         isLoggedIn: store.states.isLoggedIn
     };
 };
 
-export default connect(mapStateToProps, {})(Storefront);
+export default connect(mapStoreToProps, {})(Storefront);
 
 

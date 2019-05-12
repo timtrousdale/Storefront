@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import ProductsList from './ProductsList'
 import Login from "./Login";
+import ProductsList from './ProductsList'
+import Cart from "./Cart";
 import Error404 from "./Error404";
 import { Route, Switch, withRouter } from 'react-router-dom'
+import ProductDetails from "./ProductDetails";
 
 class Router extends Component {
 
@@ -20,11 +22,12 @@ class Router extends Component {
         return (
             <Switch>
 
-                <Route path={"/login"} component={Login} exact history={this.props.history} />
-                <Route path={"/products"} component={ProductsList} exact />
-                <Route path={"/cart"} component={ProductsList} exact />
-                <Route  component={Error404}  />
+                <Route path={"/login"} component={Login} history={this.props.history} exact />
+                <Route path={"/products"} component={ProductsList} history={this.props.history} exact />
+                <Route path={"/products/:id"} component={ProductDetails} history={this.props.history} exact />
+                <Route path={"/cart"} component={Cart} history={this.props.history} exact />
 
+                <Route  component={Error404}  />
 
             </Switch>
         );
