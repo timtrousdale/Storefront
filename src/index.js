@@ -8,7 +8,7 @@ import { Provider } from "react-redux";
 import store from "./store";
 
 ReactDOM.render(<Provider store={store}>
-    <BrowserRouter><Storefront /></BrowserRouter></Provider>, document.getElementById('root'));
+    <BrowserRouter basename={process.env.PUBLIC_URL}><Storefront /></BrowserRouter></Provider>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
