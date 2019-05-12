@@ -17,6 +17,7 @@ class CartItem extends Component {
 
     }
 
+
     render() {
         return (
             <div className={`cart-item`} >

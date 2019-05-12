@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e95de2b4-9e2d-47cd-9538-28107d784552" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/loginActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/loginActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/productActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/productActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Loader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProductDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProductsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductsList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Storefront.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Storefront.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/productsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/productsReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/rootReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/statesReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/statesReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -77,11 +61,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+            <state relative-caret-position="152">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="58" selection-start-line="19" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -201,6 +194,7 @@
         <option value="$PROJECT_DIR$/src/components/Cart.js" />
         <option value="$PROJECT_DIR$/src/components/Storefront.js" />
         <option value="$PROJECT_DIR$/src/css/styles.scss" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -235,40 +229,6 @@
             <path>
               <item name="storefront_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="storefront_project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="storefront_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="storefront_project" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="storefront_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="storefront_project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="storefront_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="storefront_project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="storefront_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="storefront_project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="storefront_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="storefront_project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="storefront_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="storefront_project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -322,12 +282,12 @@
       <updated>1556804928802</updated>
       <workItem from="1556804930670" duration="46186000" />
       <workItem from="1557175689611" duration="14038000" />
-      <workItem from="1557624228618" duration="10208000" />
+      <workItem from="1557624228618" duration="10830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70432000" />
+    <option name="totallyTimeSpent" value="71054000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -340,13 +300,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.17195208" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.17195208" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32769832" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32769832" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -614,8 +573,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+        <state relative-caret-position="152">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="58" selection-start-line="19" selection-end-line="20" />
         </state>
       </provider>
     </entry>
