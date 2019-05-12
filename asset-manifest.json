@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Storefront/static/css/main.3b412d55.chunk.css",
-    "main.js": "/Storefront/static/js/main.eda42f53.chunk.js",
-    "main.js.map": "/Storefront/static/js/main.eda42f53.chunk.js.map",
-    "runtime~main.js": "/Storefront/static/js/runtime~main.86375a5d.js",
-    "runtime~main.js.map": "/Storefront/static/js/runtime~main.86375a5d.js.map",
-    "static/js/2.0c183e49.chunk.js": "/Storefront/static/js/2.0c183e49.chunk.js",
-    "static/js/2.0c183e49.chunk.js.map": "/Storefront/static/js/2.0c183e49.chunk.js.map",
-    "index.html": "/Storefront/index.html",
-    "precache-manifest.d21c17bf3e21dc5b11ef1026354ea3a7.js": "/Storefront/precache-manifest.d21c17bf3e21dc5b11ef1026354ea3a7.js",
-    "service-worker.js": "/Storefront/service-worker.js",
-    "static/css/main.3b412d55.chunk.css.map": "/Storefront/static/css/main.3b412d55.chunk.css.map"
+    "main.css": "./static/css/main.3b412d55.chunk.css",
+    "main.js": "./static/js/main.c424a5ed.chunk.js",
+    "main.js.map": "./static/js/main.c424a5ed.chunk.js.map",
+    "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
+    "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
+    "static/js/2.0c183e49.chunk.js": "./static/js/2.0c183e49.chunk.js",
+    "static/js/2.0c183e49.chunk.js.map": "./static/js/2.0c183e49.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.b8300c45243c534aab9d1e40f850506d.js": "./precache-manifest.b8300c45243c534aab9d1e40f850506d.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.3b412d55.chunk.css.map": "./static/css/main.3b412d55.chunk.css.map"
   }
 }
